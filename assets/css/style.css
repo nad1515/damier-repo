@@ -1,24 +1,20 @@
 * {
     box-sizing: border-box;
-    margin: 0;
- 
+    margin: auto;
+    padding: 0;
+    background-color: rgb(214, 183, 139);
 }
-.damier-container {
-    display: grid;
-    grid-template-columns: repeat(8, 50px); 
-    grid-template-rows: repeat(8, 50px); 
-}
+body {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+} 
 
-.damier-cell {
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
-}
+td, tr{
 
-.damier-cell.white {
-    background-color: white;
-}
+    padding: 30px;
 
-.damier-cell.black {
-    background-color: black;
+}
+h1 .dameir {
+    text-align: center;
 }
