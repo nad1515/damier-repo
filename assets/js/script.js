@@ -50,7 +50,9 @@ for (let lignes = 0; lignes <= 8; lignes++) {
         if (lignes == 0 && cellules == 8 ) { 
             maCellule.textContent = arrayLetter[7] 
         };
-        
+       
+        // if (lignes == 0 && cellules >= 1) { 
+        //     }    maCellule.textContent = arrayLetter[cellules-1]
      }
     
 }
